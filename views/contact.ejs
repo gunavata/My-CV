@@ -1,53 +1,62 @@
 <%- include('./includes/head.ejs') %>
 <section class="container-fluid">
     <div class="row row-table">
-            <div class="col-xs-12 col-sm-12 col-md-4 bg-color-projects section-column">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h3 class="project-heading uppercase">Deployed Projects</h3>
-                        </div>
-                    </div>
-                    <div class="personal-info-item">
-                        <div class="key">
-                            <p class="uppercase">Address:</p>
-                        </div>
-                        <div class="value">
-                            <p>E-13A-3, Pelangi Utama Condominium Block DEF, Jalan Masjid, Bandar Utama, 47800, PJ Selangor</p>
-                        </div>
-                    </div>
-                    <div class="personal-info-item">
-                        <div class="key">
-                            <p class="uppercase">Phone:</p>
-                        </div>
-                        <div class="value">
-                            <p>+6012-338-5386</p>
-                        </div>
-                    </div>
-                    <div class="personal-info-item">
-                        <div class="key">
-                            <p class="uppercase">Email:</p>
-                        </div>
-                        <div class="value">
-                            <p>Gunavata@hotmail.com</p>
-                        </div>
-                    </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 bg-color-projects section-column">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-heading uppercase">My Deployed Projects</h3>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-8 bg-color-three-reasons section-column">
-            <div>
-                <h3 class="contact-heading uppercase text-center"><s>Got a project in mind?</s></h3>
-                <h5 class="uppercase text-center"><s>Let's work together!</s></h5>
-                <h4 class="contact-heading text-center">Functionality not yet implemented! However, feel free to
-                    drop me an email at <u>Gunavata@hotmail.com</u>!</h4>
             </div>
-            <div class="center-form">
-                <form>
-                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required />
-                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email"
-                        required />
-                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary"
-                        placeholder="Project Description" required></textarea>
-                    <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
-                </form>
+            <div class="project-info-item">
+                <div class="project">
+                    <p class="uppercase text-center"><a href="https://nodejs-shop-practice.herokuapp.com/">An E-commerce store!</a></p>
+                </div>
+                <div class="desc text-center">
+                    <p>
+                        Demonstrates the functionality of Node.js along with
+                        Express.js in serving dynamic content with the help of
+                        MonogDB to acquire and store data. It includes the
+                        ability to sign up, create/manage products, make 
+                        purchases along with payment/invoice and finally track
+                        your history of orders.
+                    </p>
+                </div>
+            </div>
+            <div class="project-info-item">
+                <div class="project">
+                    <p class="uppercase text-center"></p>
+                </div>
+                <div class="desc">
+                    <p>+6012-338-5386</p>
+                </div>
+            </div>
+            <div class="project-info-item">
+                <div class="project">
+                    <p class="uppercase">Email:</p>
+                </div>
+                <div class="desc">
+                    <p>Gunavata@hotmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-8 bg-color-three-reasons section-column">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="contact-heading uppercase text-center"><s>Got a project in mind?</s></h3>
+                    <h5 class="uppercase text-center"><s>Let's work together!</s></h5>
+                    <h4 class="contact-heading text-center">Functionality not yet implemented! However, feel free to
+                        drop me an email at <u>Gunavata@hotmail.com</u>!</h4>
+                </div>
+                <div class="center-form">
+                    <form>
+                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required />
+                        <input type="text" name="emailaddress" class="form-control" id="emailaddress"
+                            placeholder="Email" required />
+                        <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary"
+                            placeholder="Project Description" required></textarea>
+                        <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>

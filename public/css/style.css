@@ -337,15 +337,48 @@ footer .cv-pdf i:hover {
 
 /*------------------------------------------------------Projects*/
 
-.project-heading {
+.project-info-item {
     color: #fafafa;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
 }
 
-.project-items {
-    margin-bottom: 30px;
+.project-info-item .project,
+.project-info-item .desc {
+    padding-right: 8px;
 }
 
+.project-info-item .project p,
+.project-info-item .desc p {
+    margin: 0;
+    color: #fafafa;
+}
+
+.project-info-item .project p a {
+    color: #adcad6;
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+.project-info-item .project {
+    display: inline-block;
+    width: 100%;
+    margin-right: 21px;
+    padding-bottom: 10px;
+    vertical-align: top;
+}
+
+.project-info-item .project p {
+    font-weight: 700;
+}
+
+.project-info-item .desc {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    text-align: justify;
+}
 
 /*------------------------------------------------------Contact*/
 
